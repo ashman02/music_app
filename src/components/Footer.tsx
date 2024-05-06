@@ -58,21 +58,21 @@ const Footer = () => {
                     <h2 className="text-white text-lg font-semibold mb-4">
                         Follow Us
                     </h2>
-                    <div className="flex space-x-4">
+                    <div className="flex flex-col items-baseline justify-start">
                         <a
-                            href="#"
+                            href="https://github.com/chobar02"
                             className="hover:text-white transition-colors duration-300"
                         >
-                            Facebook
+                            GitHub
                         </a>
                         <a
-                            href="#"
+                            href="https://twitter.com/chobar02"
                             className="hover:text-white transition-colors duration-300"
                         >
                             Twitter
                         </a>
                         <a
-                            href="#"
+                            href="https://www.instagram.com/cforchobar/"
                             className="hover:text-white transition-colors duration-300"
                         >
                             Instagram
