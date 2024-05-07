@@ -4,7 +4,7 @@ import { Meteors } from "@/components/ui/meteors"
 
 const page = () => {
   return (
-    <div className="container mx-auto px-4 py-8 mt-32 lg:w-2/4 md:w-3/4 w-full ">
+    <div className="container mx-auto px-4 py-8 mt-32 lg:w-2/4 md:w-3/4 w-[95vw] overflow-hidden">
     <h1 className="text-3xl font-bold mb-4">Contact Us</h1>
     <form>
       <div className="mb-4">
@@ -21,7 +21,10 @@ const page = () => {
       </div>
       <button type="submit" className="bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-600">Submit</button>
     </form>
-    <Meteors number={50}/>
+
+    <div className="meteor">  
+    <Meteors className="" number={50}/>
+    </div>
   </div>
   )
 }
